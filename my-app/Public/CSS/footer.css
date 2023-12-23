@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&family=Nunito:wght@300;500&display=swap');
+
+footer {
+  margin-top: 2rem;
+}
+
+.footerContent {
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px 0;
+  text-align: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Nunito', sans-serif;
+background-color: black;
+}
+
+.footerContent p {
+  margin: 5px 0;
+  color: white;
+  font-size: 16px;
+  text-transform:none ;
+
+}
+
+.footerContent a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 16px;
+  text-transform:none ;
+}
+
+.footerContent a:hover {
+  color: #978886;
+}
+
+@media (max-width: 767px) {
+  .footerContent {
+    padding: 20px 15px;
+  }
+}
+
+@media (max-width: 727px) {
+
+  .footerContent a, .footerContent p {
+    font-size: 13px;
+  }
+
+}

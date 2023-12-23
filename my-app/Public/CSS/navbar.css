@@ -1,0 +1,126 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+    display: none;
+  } 
+
+
+.nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    background-color: black;
+    font-family: sans-serif;
+    height: 3.6rem;
+    font-weight: bold;
+}
+
+.logo {
+    margin-left: 10px;
+}
+
+.nav__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-right: 10px;
+    z-index: 1;
+}
+
+.nav__item {
+    margin: 0 10px;
+    list-style: none;
+}
+
+.nav__link,
+.nav-heading,
+.btn-link {
+    color: white;
+    text-decoration: none;
+}
+
+.nav__link {
+    padding: 5px 10px;
+}
+
+.nav__link:hover {
+    border-bottom: 3px solid white;
+}
+
+.nav__link:focus {
+    color: rgb(134, 133, 133);
+}
+
+.btn-link {
+    color: black;
+}
+
+.ham__burger {
+    margin-right: 10px;
+    display: none;
+}
+
+.line {
+    width: 1.6rem;
+    height: 3px;
+    margin: 4px;
+    background-color: white;
+}
+
+@media screen and (max-width: 960px) {
+    .nav__list {
+        display: none;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        background: black;
+        position: absolute;
+        left: 0;
+        top: 58px;
+        width: 100vw;
+        padding: 1rem 0;
+    }
+
+    .nav__item {
+        margin: 13px 0;
+    }
+
+    .ham__burger {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 348px) {
+    .nav-heading h1 {
+        font-size: 20px;
+    }
+
+    .line {
+        width: 1.3rem;
+    }
+}
+
+.hide {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}

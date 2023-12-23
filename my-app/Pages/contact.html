@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Good Morning || Contact Us Page!!!</title>
+    <link rel="icon" href="../Public/Images/favicon.ico">
+
+
+
+    <!-- ====CSS Files==== -->
+
+    <!-- Navbar CSS File -->
+    <link rel="stylesheet" href="./CSS/navbar.css">
+
+    <!-- Contact CSS File -->
+    <link rel="stylesheet" href="./CSS/contact.css">
+
+    <!-- Button CSS File -->
+    <link rel="stylesheet" href="./CSS/btn.css">
+
+    <!-- Footer CSS File -->
+    <link rel="stylesheet" href="./CSS/footer.css">
+
+    <!-- ====JS Files====  -->
+
+    <!-- Navbar JS File -->
+    <script src="./JS/navbar.js" defer></script>
+
+    <!-- Footer JS File -->
+    <script src="./JS/footer.js" defer></script>
+
+    <!-- CDN JS Library -->
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js" defer></script>
+    
+</head>
+<body>
+    <header id="header"></header>
+
+    <main>
+        <div class="contact" id="userContact">
+            <div class="contactHeading">
+                <h1>Contact Us!</h1>
+            </div>
+            <form id="contactForm" action="/submit" method="post">
+                <div>
+                    <input type="text" name="name" id="name" placeholder="Enter Your Name" required>
+                </div>
+                <div>
+                    <input type="email" name="email" id="email" placeholder="Enter Your Email" required>
+                </div>
+                <div>
+                    <input type="number" name="number" id="number"
+                        placeholder="Enter Your Phone Number" required>
+                </div>
+                <div>
+                    <textarea name="textarea" id="textarea" cols="30" rows="10"
+                        placeholder="Write Your Experience..." required></textarea>
+                </div>
+                <div>
+                    <input type="submit" value="Submit Now" id="submitBtn" class="btn">
+                </div>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <div class="footerContent"></div>
+    </footer>
+</body>
+</html>

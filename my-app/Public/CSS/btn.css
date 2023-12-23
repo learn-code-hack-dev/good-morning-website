@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&family=Nunito:wght@300;500&display=swap');
+
+.btn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s;
+         -o-transition-duration: 0.4s;
+            transition-duration: 0.4s;
+    border-radius: 5px;
+    font-family: 'Nunito', sans-serif;
+
+   }
+   
+   .btn:hover {
+    background-color: #0056b3;
+    color: white;
+   }
